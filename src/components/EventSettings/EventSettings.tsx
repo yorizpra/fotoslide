@@ -95,7 +95,7 @@ const EventSettings = ({ onUpdate }: EventSettingsProps) => {
           <div className="space-y-2">
             <h2 className="text-lg font-medium">Caption Theme</h2>
             <p className="text-sm text-gray-500">
-              Choose a theme color for your brand. We'll use that throughout the public pages (Photo Wall, Album, etc.)
+              {"Choose a theme color for your brand. We'll use that throughout the public pages (Photo Wall, Album, etc.)"}
             </p>
             <div className="flex items-center space-x-2">
               <div

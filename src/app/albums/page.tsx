@@ -1,6 +1,7 @@
 import React from 'react';
 import { Pencil, Upload } from 'lucide-react';
 import DefaultLayout from '@/components/Layouts/DefaultLaout';
+import Image from 'next/image';
 
 interface Album {
   id: string;
@@ -16,7 +17,7 @@ interface AlbumCardProps {
 
 const AlbumCard: React.FC<AlbumCardProps> = ({ title, coverImage }) => (
   <div className="w-32 h-40 rounded-lg overflow-hidden relative cursor-pointer">
-    <img
+    <Image
       src={coverImage || "/api/placeholder/128/160"}
       alt={title}
       className="w-full h-32 object-cover"

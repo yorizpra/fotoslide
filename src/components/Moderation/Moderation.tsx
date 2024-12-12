@@ -59,7 +59,7 @@ export default function Moderation() {
       {/* Welcome Screen Section */}
       <div>
         <h2 className="text-lg font-semibold mb-2">Welcome Screen</h2>
-        <p className="text-gray-500 mb-4">Set up an introductory screen for guests' first visit, with a form to collect their info.</p>
+        <p className="text-gray-500 mb-4">{"Set up an introductory screen for guests' first visit, with a form to collect their info."}</p>
         <ButtonDefault
           label="Edit Welcome Screen"
           link="#"
@@ -73,7 +73,7 @@ export default function Moderation() {
           <div>
             <h2 className="text-lg font-semibold">Manually Approve Guest Uploads</h2>
             <p className="text-gray-500">
-              Manually approve uploads made by guests before it's shown on your Slideshow and Digital Album.
+              {"Manually approve uploads made by guests before it's shown on your Slideshow and Digital Album."}
               <span className="text-green-500 ml-2 cursor-pointer">More Info</span>
             </p>
           </div>
@@ -104,7 +104,7 @@ export default function Moderation() {
       {/* Digital Album Permissions */}
       <div>
         <h2 className="text-lg font-semibold mb-2">Digital Album Permissions</h2>
-        <p className="text-gray-500 mb-4">Control how guests can interact with your event's digital album.</p>
+        <p className="text-gray-500 mb-4">{"Control how guests can interact with your event's digital album."}</p>
         <div className="grid grid-cols-3 gap-4">
           {permissions.map(permission => (
             <div

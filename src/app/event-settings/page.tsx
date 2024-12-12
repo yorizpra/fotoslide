@@ -18,7 +18,7 @@ const Home: React.FC = () => {
           <div>
             <label className="mb-3 block text-body-sm font-medium text-dark dark:text-white">
               Event Name <br />
-              <span className="text-body-xs text-dark-5 dark:text-white">It'll be used through the app and will be showed to your guests.</span>
+              <span className="text-body-xs text-dark-5 dark:text-white">{"It'll be used through the app and will be showed to your guests."}</span>
             </label>
             <input
               type="text"
@@ -39,7 +39,7 @@ const Home: React.FC = () => {
           <div>
             <label className="mb-3 block text-body-sm font-medium text-dark dark:text-white">
               Event Type <br />
-              <span className="text-body-xs text-dark-5 dark:text-white">We'll adjust the experience according to your event type.</span>
+              <span className="text-body-xs text-dark-5 dark:text-white">{"We'll adjust the experience according to your event type."}</span>
             </label>
             <ButtonDefault
               label="Wedding"
