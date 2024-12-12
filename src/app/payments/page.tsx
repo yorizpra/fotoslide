@@ -8,7 +8,7 @@ const PaymentPage: NextPage = () => {
       <p>
         after payment completed, 
         <Link
-          href="/dashboard"
+          href="/"
           className="items-center gap-2.5 rounded-[7px] p-2 text-sm font-medium text-dark-4 underline duration-300 ease-in-out hover:bg-gray-2 hover:text-dark dark:text-dark-6 dark:hover:bg-dark-3 dark:hover:text-white lg:text-base"
         >
           back to fotoslide

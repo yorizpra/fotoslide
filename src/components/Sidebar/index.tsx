@@ -20,7 +20,7 @@ const menuGroups = [
 
       {
         label: "Dashboard",
-        route: "/dashboard",
+        route: "/",
       },
       {
         label: "My Album",

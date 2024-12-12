@@ -21,6 +21,8 @@ const AlbumCard: React.FC<AlbumCardProps> = ({ title, coverImage }) => (
       src={coverImage || "/api/placeholder/128/160"}
       alt={title}
       className="w-full h-32 object-cover"
+      width={128}
+      height={128}
     />
     <div className="p-2 bg-white">
       <p className="text-xs font-medium truncate">{title}</p>
